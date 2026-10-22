@@ -1,5 +1,3 @@
-export default function BrandMark(){
-    return (
-        <>Marca</>
-    )
+export default function BrandMark() {
+  return <span className="brand-mark"><span /></span>
 }
