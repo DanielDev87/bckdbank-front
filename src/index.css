@@ -109,3 +109,24 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+:root {
+  color-scheme: light;
+  color: #1c2824;
+  background: #f2f5f2;
+  --text: #6b7770;
+  --text-h: #1c2824;
+  --bg: #f2f5f2;
+  --border: #e7ece8;
+  --accent: #185748;
+  --accent-bg: #eaf3ed;
+  --accent-border: #a6c7b2;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0;
+}
+
+body { min-width: 360px; min-height: 100vh; margin: 0; }
+#root { display: block; width: 100%; min-height: 100vh; max-width: none; margin: 0; border: 0; text-align: left; }
+button, input, select { font: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #89bba3; outline-offset: 2px; }
+h1, h2 { letter-spacing: 0; }
